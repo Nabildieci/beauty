@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lumina Beauté | Salon & Spa</title>
-    <meta name="description" content="Découvrez Lumina Beauté, votre salon de beauté et spa premium pour un moment de détente et des soins d'exception.">
+    <title>ADHOTEL | Hôtel de Luxe - Alger</title>
+    <meta name="description" content="ADHOTEL Alger — Votre hôtel 5 étoiles au cœur d'Alger. Restaurant gastronomique, piscine, spa et salles de conférence.">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo">Lumina<span>.</span></div>
+        <div class="logo">AD<span>HOTEL</span></div>
         <ul class="nav-links">
             <li><a href="#home">Accueil</a></li>
-            <li><a href="#services">Nos Soins</a></li>
-            <li><a href="#about">À Propos</a></li>
+            <li><a href="#services">Nos Services</a></li>
+            <li><a href="#chambres">Chambres</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="admin.html" style="color: var(--primary-color);">Admin</a></li>
         </ul>
@@ -24,17 +24,19 @@
 
     <header id="home" class="hero">
         <div class="hero-content">
-            <h1>Révélez votre<br><span>Beauté Naturelle</span></h1>
-            <p>Une expérience de bien-être unique alliant expertise, produits premium et relaxation profonde.</p>
+            <p class="hero-tag">⭐⭐⭐⭐⭐ — Alger, Algérie</p>
+            <h1>Bienvenue à<br><span>ADHOTEL</span></h1>
+            <p>Une expérience hôtelière d'exception au cœur d'Alger. Élégance, confort et service personnalisé pour chaque séjour.</p>
             <div class="hero-buttons">
-                <button class="btn-primary">Découvrir nos soins</button>
-                <button class="btn-secondary">Prendre RDV</button>
+                <button class="btn-primary">Découvrir nos chambres</button>
+                <button class="btn-secondary">Réserver maintenant</button>
             </div>
         </div>
         <div class="hero-image">
             <div class="glass-card">
-                <h3>Ouvert aujourd'hui</h3>
-                <p>09:00 - 19:30</p>
+                <h3>Disponible 24h/24</h3>
+                <p>Réception ouverte</p>
+                <p style="font-size:0.85rem; color:#aaa; margin-top:0.5rem;">+213 XX XX XX XX</p>
                 <div class="pulse-indicator"></div>
             </div>
         </div>
@@ -42,37 +44,60 @@
 
     <section id="services" class="services">
         <div class="section-header">
-            <h2>Nos Prestations</h2>
-            <p>Découvrez notre sélection de soins sur mesure.</p>
+            <h2>Nos Services</h2>
+            <p>Tout ce qu'il vous faut pour un séjour parfait.</p>
         </div>
         <div class="services-grid">
             <div class="service-card">
-                <img src="images/facial_care_1776469466915.png" alt="Soin Visage" class="service-img">
-                <div class="service-icon">💆‍♀️</div>
-                <h3>Soins Visage</h3>
-                <p>Hydratation, anti-âge et purification avec des produits organiques haut de gamme.</p>
-                <span class="price">À partir de 60€</span>
+                <div class="service-icon">🍽️</div>
+                <h3>Restaurant</h3>
+                <p>Gastronomie raffinée avec des saveurs locales et internationales, préparées par nos chefs étoilés.</p>
+                <span class="price">Ouvert 07h – 23h</span>
             </div>
             <div class="service-card">
-                <img src="images/nail_care_1776469478588.png" alt="Onglerie" class="service-img">
-                <div class="service-icon">💅</div>
-                <h3>Onglerie</h3>
-                <p>Manucure, beauté des pieds, vernis semi-permanent et extensions.</p>
-                <span class="price">À partir de 30€</span>
+                <div class="service-icon">🏊</div>
+                <h3>Piscine</h3>
+                <p>Piscine extérieure avec vue panoramique sur Alger, accessible à tous nos résidents.</p>
+                <span class="price">Ouvert 08h – 20h</span>
             </div>
             <div class="service-card">
-                <img src="images/hair_care_1776469495049.png" alt="Coiffure" class="service-img">
-                <div class="service-icon">✂️</div>
-                <h3>Coiffure</h3>
-                <p>Coupe, coloration, balayage et soins capillaires profonds.</p>
-                <span class="price">À partir de 45€</span>
+                <div class="service-icon">🧖</div>
+                <h3>Spa & Bien-être</h3>
+                <p>Massages, hammam, soins du corps et de beauté pour une relaxation totale.</p>
+                <span class="price">Sur réservation</span>
             </div>
             <div class="service-card">
-                <img src="images/salon_hero_bg_1776469448854.png" alt="Spa" class="service-img">
-                <div class="service-icon">🌿</div>
-                <h3>Massages & Spa</h3>
-                <p>Relaxation globale, réflexologie et enveloppements.</p>
-                <span class="price">À partir de 80€</span>
+                <div class="service-icon">🎤</div>
+                <h3>Salles de Conférence</h3>
+                <p>Espaces modulables avec équipements high-tech pour vos réunions, séminaires et événements.</p>
+                <span class="price">Jusqu'à 300 personnes</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="chambres" class="services" style="background: rgba(255,255,255,0.01);">
+        <div class="section-header">
+            <h2>Nos Chambres & Suites</h2>
+            <p>Des espaces pensés pour votre confort absolu.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🛏️</div>
+                <h3>Chambre Standard</h3>
+                <p>Chambre élégante avec vue sur la ville, lit king size, climatisation et Wi-Fi.</p>
+                <span class="price">À partir de 12 000 DA / nuit</span>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌟</div>
+                <h3>Suite Deluxe</h3>
+                <p>Suite spacieuse avec salon séparé, vue panoramique et accès spa inclus.</p>
+                <span class="price">À partir de 25 000 DA / nuit</span>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">👑</div>
+                <h3>Suite Présidentielle</h3>
+                <p>Le summum du luxe avec terrasse privée, jacuzzi et service concierge dédié 24h/24.</p>
+                <span class="price">Sur devis</span>
             </div>
         </div>
     </section>
@@ -81,16 +106,18 @@
     <div id="booking-modal" class="modal">
         <div class="modal-content glass">
             <span class="close">&times;</span>
-            <h2>Réserver un créneau</h2>
+            <h2>Réserver à ADHOTEL</h2>
             <form id="booking-form">
                 <div class="form-group">
-                    <label>Prestation souhaitée</label>
-                    <select required>
-                        <option value="">Sélectionnez un soin...</option>
-                        <option value="visage">Soin Visage</option>
-                        <option value="ongles">Onglerie</option>
-                        <option value="coiffure">Coiffure</option>
-                        <option value="massage">Massage & Spa</option>
+                    <label>Type de séjour / Service</label>
+                    <select id="prestation" required>
+                        <option value="">Sélectionnez...</option>
+                        <option value="standard">Chambre Standard</option>
+                        <option value="deluxe">Suite Deluxe</option>
+                        <option value="presidentielle">Suite Présidentielle</option>
+                        <option value="restaurant">Restaurant</option>
+                        <option value="spa">Spa & Bien-être</option>
+                        <option value="conference">Salle de Conférence</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -98,27 +125,26 @@
                     <input type="date" id="booking-date" required>
                 </div>
                 <div class="form-group time-slots-container" style="display:none;">
-                    <label>Heure disponible (10h - 18h)</label>
+                    <label>Heure d'arrivée / Créneau (10h – 18h)</label>
                     <div id="time-slots" class="time-slots">
-                        <!-- Créneaux injectés en JS -->
                     </div>
                 </div>
                 <input type="hidden" id="selected-time" required>
                 <div class="form-group" style="display: flex; gap: 1rem;">
                     <div style="flex: 1;">
                         <label>Prénom</label>
-                        <input type="text" id="prenom" placeholder="Sophie" required>
+                        <input type="text" id="prenom" placeholder="Mohamed" required>
                     </div>
                     <div style="flex: 1;">
                         <label>Nom</label>
-                        <input type="text" id="nom" placeholder="Martin" required>
+                        <input type="text" id="nom" placeholder="Benali" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label>Numéro de téléphone</label>
-                    <input type="tel" id="telephone" placeholder="06 12 34 56 78" pattern="[0-9\s\-\+\(\)]*" required>
+                    <input type="tel" id="telephone" placeholder="0555 123 456" pattern="[0-9\s\-\+\(\)]*" required>
                 </div>
-                <button type="submit" class="btn-primary full-width">Confirmer ma réservation</button>
+                <button type="submit" class="btn-primary full-width">Confirmer la réservation</button>
             </form>
         </div>
     </div>

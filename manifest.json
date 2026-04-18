@@ -1,12 +1,12 @@
 {
-  "name": "Lumina Beauté",
-  "short_name": "Lumina",
+  "name": "ADHOTEL Alger",
+  "short_name": "ADHOTEL",
   "start_url": "https://beauty-nabil10.vercel.app/",
   "scope": "https://beauty-nabil10.vercel.app/",
   "display": "standalone",
   "background_color": "#1A1A1A",
   "theme_color": "#E2B5A0",
-  "description": "Application Salon de Beauté & Spa - Réservez vos soins en ligne",
+  "description": "ADHOTEL Alger — Hôtel 5 étoiles, Restaurant, Piscine, Spa & Conférences",
   "icons": [
     {
       "src": "images/salon_hero_bg_1776469448854.png",

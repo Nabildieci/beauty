@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #E2B5A0; /* Soft rose gold */
-    --accent-color: #A38271;
-    --dark-bg: #1A1A1A;
-    --text-light: #F5F5F5;
-    --glass-bg: rgba(255, 255, 255, 0.05);
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --primary-color: #C9A84C; /* Deep gold */
+    --accent-color: #A07830;
+    --dark-bg: #0F0F0F;
+    --text-light: #F5F5F0;
+    --glass-bg: rgba(255, 255, 255, 0.04);
+    --glass-border: rgba(201, 168, 76, 0.2);
 }
 
 * {
@@ -41,13 +41,16 @@ h1, h2, h3, .logo {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 600;
-    color: var(--text-light);
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .logo span {
-    color: var(--primary-color);
+    color: var(--text-light);
+    font-weight: 300;
 }
 
 .nav-links {
@@ -120,7 +123,7 @@ h1, h2, h3, .logo {
     padding: 0 5%;
     margin-top: 5rem;
     position: relative;
-    background: url('images/salon_hero_bg_1776469448854.png') center/cover no-repeat;
+    background: radial-gradient(circle at 60% 50%, rgba(201, 168, 76, 0.08) 0%, transparent 60%), linear-gradient(135deg, #0F0F0F 0%, #1a1505 100%);
 }
 
 .hero::before {
